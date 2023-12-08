@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SlTravelGuide"
+        tools:targetApi="31">
+        <activity
+            android:name=".meemurehotelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ellahotelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".jaffnahotelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".gallehotelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kandyhotelActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCtFckwSGZzwMppx1bpb6fkB6Kz9ozlpYw" />
+
+        <activity
+            android:name=".unawatunaMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_unawatuna_maps" />
+        <activity
+            android:name=".sripadayaMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sripadaya_maps" />
+        <activity
+            android:name=".nuwaraeliyaMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_nuwaraeliya_maps" />
+        <activity
+            android:name=".mirissaMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_mirissa_maps" />
+        <activity
+            android:name=".meemureMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_meemure_maps" />
+        <activity
+            android:name=".liptonMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_lipton_maps" />
+        <activity
+            android:name=".kandyMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_kandy_maps" />
+        <activity
+            android:name=".jaffnaMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_jaffna_maps" />
+        <activity
+            android:name=".galleMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_galle_maps" />
+        <activity
+            android:name=".mirissaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".unawatunaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".meemureActivity"
+            android:exported="true" />
+        <activity
+            android:name=".sripadayaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".nuwaraeliyaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".jaffnaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".liptonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".galleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kandyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".vistActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".hikkaMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_hikka_maps" />
+        <activity
+            android:name=".hikkaduwaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MapsActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".ellaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".visitActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".sigiriyaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".signupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".transportActivity"
+            android:exported="true" />
+        <activity
+            android:name=".hotels"
+            android:exported="true" />
+        <activity
+            android:name=".dashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".colomboActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ComformActivity"
+            android:exported="true" />
+        <activity
+            android:name=".aboutus"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
